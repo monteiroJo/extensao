@@ -1,22 +1,18 @@
 {
     "name": "removeer",
-    "description": "esconde o tempo ja assistido dos videos na tela inicial do YouTube",
-    "version": "0.1",
+    "description": "Hides YouTube Shorts and the progress bar on YouTube thumbnails.",
+    "version": "0.3",
     "manifest_version": 3,
     "action": {
-      "default_popup": "inan.html",
       "default_icon": "hi.png"
     },
     "content_scripts": [
       {
-        "matches": ["https://www.youtube.com/*"
-        ,"http://*.youtube.com/watch?*"
-        ,"https://*.youtube.com/watch?*"],
+        "matches": [
+          "https://www.youtube.com/*",
+          "http://*.youtube.com/watch?*",
+          "https://*.youtube.com/watch?*"],
         "css": ["removo.css"]
       }
-    ],
-    "permissions": [
-      "activeTab",
-      "scripting"
     ]
   }
