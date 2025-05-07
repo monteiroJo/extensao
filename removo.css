@@ -1,17 +1,8 @@
 ytd-thumbnail-overlay-resume-playback-renderer {
     height: 0 !important;
 }
-/* ytd-rich-shelf-renderer[standard-shelf-margins][is-shorts][is-show-more-hidden][is-show-less-hidden][is-truncated] #dismissible.ytd-rich-shelf-renderer {
-    height: 0 !important;
-    visibility: hidden;
-    overflow: hidden;
-} */
 ytd-rich-shelf-renderer[is-shorts] {
     height: 0 !important;
     visibility: hidden;
     overflow: hidden;
 }
-/* style-scope
-.ytd-thumbnail-overlay-resume-playback-renderer
-.ytThumbnailOverlayProgressBarHostWatchedProgressBarSegment
-.ytThumbnailOverlayProgressBarHostWatchedProgressBarSegment
