@@ -6,3 +6,30 @@ ytd-rich-shelf-renderer[is-shorts] {
     visibility: hidden;
     overflow: hidden;
 }
+ytd-reel-shelf-renderer.style-scope.ytd-item-section-renderer {
+    height: 0 !important;
+    visibility: hidden;
+    overflow: hidden;
+    margin: 0px;
+}
+.ytThumbnailOverlayProgressBarHostWatchedProgressBar,
+.ytThumbnailOverlayProgressBarHostUseLegacyBar  {
+    height: 0 !important;
+    visibility: hidden;
+    overflow: hidden;
+}
+ytd-mini-guide-entry-renderer[aria-label="shorts"] {
+    height: 0 !important;
+    visibility: hidden;
+    overflow: hidden;
+}
+ytd-guide-entry-renderer.style-scope:has(a#endpoint[title="Shorts"]) {
+    height: 1px !important;
+    visibility: hidden;
+    overflow: hidden;
+}
+ytd-mini-guide-entry-renderer:has(a[title="Shorts"]) {
+    height: 0 !important;
+    visibility: hidden;
+    padding: 0;
+}
